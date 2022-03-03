@@ -187,8 +187,6 @@ nav [class*="fa-"]:hover {
 
 #projects {
   padding: 4rem 1rem;
-  max-width: 1200px;
-  margin: 0 auto;
 }
 
 #projects h2 {
@@ -278,6 +276,11 @@ footer ul {
     display: grid;
     grid-template-columns: repeat(10, 1fr);
     gap: 1rem;
+  }
+
+  #projects {
+    max-width: 1200px;
+    margin: 0 auto;
   }
   
   #projects img {
